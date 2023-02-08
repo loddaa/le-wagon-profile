@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;600&display=swap');
+
+
+#img-profile {
+  width: 150px;
+  border-radius: 50%;
+}
+
+body {
+  background-color:#DEFFF2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #464F51;
+  line-height: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.btn-black {
+  text-decoration: none;
+  background-color: #000009;
+  color: #DEFFF2;
+  margin: 200px auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #464F51;
+}
+
+.btn-black:hover {
+  background-color: #464F51;
+}
+
+.icon-black {
+  text-decoration: none;
+  color: #000009;
+  font-size: 35px;
+}
+
+.icon-black:hover {
+  color: #464F51;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #FFFFFF;
+  padding: 35px;
+  border: 2px solid #464F51;
+  border-radius: 15px;
+}
+
+.btn-card {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
